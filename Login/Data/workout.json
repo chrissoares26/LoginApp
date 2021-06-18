@@ -1,0 +1,60 @@
+[
+    {
+        "day": "Monday",
+        "image": "stretching-1",
+        "routine": [
+            {"name": "Panturrilhas", "pic": "panturrilhas", "desc": "Forma de execução - De pé, tronco ereto, abdômen contraído, de frente para o espaldar, a uma distância de um passo. Pés na largura dos quadris, levar uma das pernas à frente inclinando o tronco e apoiando as mãos no espaldar (ou parede), mantendo o calcanhar da perna de trás apoiado no chão até sentir o alongamento na parte posterior alta da perna e sustentar a posição pelo tempo indicado."},
+            {"name": "Virilhas", "pic": "virilhas", "desc":"Forma de execução - A uma distância de um passo e de frente para o espaldar (ou onde possa apoiar as mãos, beirada da cama ou uma cadeira), de joelhos sobre um colchonete, tronco ereto, transverso contraído. Levar uma das pernas à frente até bem próximo do espaldar, mantendo uma flexão do joelho da frente em torno de 90°. Apoiar as mãos numa das barras, manter tronco ereto e fazer uma ligeira pressão no quadril para baixo e para frente até sentir o estiramento das virilhas da perna que está no chão e manter a postura pelo tempo indicado."},
+            {"name": "Posteriores das Coxas", "pic": "posterior-coxa", "desc": "Forma de execução - a uma distância de um passo do espaldar, tronco ereto, preservando as curvaturas da coluna e pelve em neutro. Manter os pés e os quadris apontados para frente. Flexionar um dos quadris (com os joelhos estendidos, MAS SEM BLOQUEAR) e apoiar o calcanhar deste membro sobre uma barra do espaldar, formando um ângulo entre 90° a 120° de flexão de quadril, até o alongamento da parte posterior da coxa. Pode-se utilizar uma corda presa ao espaldar para auxiliar no equilíbrio. Mantenha sempre o BRACING FORTE!"}
+
+        ]
+    },
+    
+    {
+        "day": "Tuesday",
+        "image": "stretching-2",
+        "routine": [
+            {"name": "Panturrilhas", "pic": "virilhas", "desc": "Forma de execução - De pé, tronco ereto, abdômen contraído, de frente para o espaldar, a uma distância de um passo. Pés na largura dos quadris, levar uma das pernas à frente inclinando o tronco e apoiando as mãos no espaldar (ou parede), mantendo o calcanhar da perna de trás apoiado no chão até sentir o alongamento na parte posterior alta da perna e sustentar a posição pelo tempo indicado."},
+            {"name": "Virilhas", "pic": "virilhas", "desc":"Forma de execução - A uma distância de um passo e de frente para o espaldar (ou onde possa apoiar as mãos, beirada da cama ou uma cadeira), de joelhos sobre um colchonete, tronco ereto, transverso contraído. Levar uma das pernas à frente até bem próximo do espaldar, mantendo uma flexão do joelho da frente em torno de 90°. Apoiar as mãos numa das barras, manter tronco ereto e fazer uma ligeira pressão no quadril para baixo e para frente até sentir o estiramento das virilhas da perna que está no chão e manter a postura pelo tempo indicado."},
+            {"name": "Posteriores das Coxas", "pic": "posterior-coxa", "desc": "Forma de execução - a uma distância de um passo do espaldar, tronco ereto, preservando as curvaturas da coluna e pelve em neutro. Manter os pés e os quadris apontados para frente. Flexionar um dos quadris (com os joelhos estendidos, MAS SEM BLOQUEAR) e apoiar o calcanhar deste membro sobre uma barra do espaldar, formando um ângulo entre 90° a 120° de flexão de quadril, até o alongamento da parte posterior da coxa. Pode-se utilizar uma corda presa ao espaldar para auxiliar no equilíbrio. Mantenha sempre o BRACING FORTE!"}
+
+        ]
+    },
+    
+    {
+        "day": "Wednesday",
+        "image": "stretching-3",
+        "routine": [
+            {"name": "Panturrilhas", "pic": "panturrilhas", "desc": "Forma de execução - De pé, tronco ereto, abdômen contraído, de frente para o espaldar, a uma distância de um passo. Pés na largura dos quadris, levar uma das pernas à frente inclinando o tronco e apoiando as mãos no espaldar (ou parede), mantendo o calcanhar da perna de trás apoiado no chão até sentir o alongamento na parte posterior alta da perna e sustentar a posição pelo tempo indicado."},
+            {"name": "Virilhas", "pic": "virilhas", "desc":"Forma de execução - A uma distância de um passo e de frente para o espaldar (ou onde possa apoiar as mãos, beirada da cama ou uma cadeira), de joelhos sobre um colchonete, tronco ereto, transverso contraído. Levar uma das pernas à frente até bem próximo do espaldar, mantendo uma flexão do joelho da frente em torno de 90°. Apoiar as mãos numa das barras, manter tronco ereto e fazer uma ligeira pressão no quadril para baixo e para frente até sentir o estiramento das virilhas da perna que está no chão e manter a postura pelo tempo indicado."},
+            {"name": "Posteriores das Coxas", "pic": "posterior-coxa", "desc": "Forma de execução - a uma distância de um passo do espaldar, tronco ereto, preservando as curvaturas da coluna e pelve em neutro. Manter os pés e os quadris apontados para frente. Flexionar um dos quadris (com os joelhos estendidos, MAS SEM BLOQUEAR) e apoiar o calcanhar deste membro sobre uma barra do espaldar, formando um ângulo entre 90° a 120° de flexão de quadril, até o alongamento da parte posterior da coxa. Pode-se utilizar uma corda presa ao espaldar para auxiliar no equilíbrio. Mantenha sempre o BRACING FORTE!"}
+
+        ]
+    },
+    
+    {
+        "day": "Thursday",
+        "image": "stretching-4",
+        "routine": [
+            {"name": "Panturrilhas", "pic": "panturrilhas", "desc": "Forma de execução - De pé, tronco ereto, abdômen contraído, de frente para o espaldar, a uma distância de um passo. Pés na largura dos quadris, levar uma das pernas à frente inclinando o tronco e apoiando as mãos no espaldar (ou parede), mantendo o calcanhar da perna de trás apoiado no chão até sentir o alongamento na parte posterior alta da perna e sustentar a posição pelo tempo indicado."},
+            {"name": "Virilhas", "pic": "virilhas", "desc":"Forma de execução - A uma distância de um passo e de frente para o espaldar (ou onde possa apoiar as mãos, beirada da cama ou uma cadeira), de joelhos sobre um colchonete, tronco ereto, transverso contraído. Levar uma das pernas à frente até bem próximo do espaldar, mantendo uma flexão do joelho da frente em torno de 90°. Apoiar as mãos numa das barras, manter tronco ereto e fazer uma ligeira pressão no quadril para baixo e para frente até sentir o estiramento das virilhas da perna que está no chão e manter a postura pelo tempo indicado."},
+            {"name": "Posteriores das Coxas", "pic": "posterior-coxa", "desc": "Forma de execução - a uma distância de um passo do espaldar, tronco ereto, preservando as curvaturas da coluna e pelve em neutro. Manter os pés e os quadris apontados para frente. Flexionar um dos quadris (com os joelhos estendidos, MAS SEM BLOQUEAR) e apoiar o calcanhar deste membro sobre uma barra do espaldar, formando um ângulo entre 90° a 120° de flexão de quadril, até o alongamento da parte posterior da coxa. Pode-se utilizar uma corda presa ao espaldar para auxiliar no equilíbrio. Mantenha sempre o BRACING FORTE!"}
+
+        ]
+    },
+    {
+        "day": "Friday",
+        "image": "stretching-5",
+        "routine": [
+            {"name": "Panturrilhas", "pic": "panturrilhas", "desc": "Forma de execução - De pé, tronco ereto, abdômen contraído, de frente para o espaldar, a uma distância de um passo. Pés na largura dos quadris, levar uma das pernas à frente inclinando o tronco e apoiando as mãos no espaldar (ou parede), mantendo o calcanhar da perna de trás apoiado no chão até sentir o alongamento na parte posterior alta da perna e sustentar a posição pelo tempo indicado."},
+            {"name": "Virilhas", "pic": "virilhas", "desc":"Forma de execução - A uma distância de um passo e de frente para o espaldar (ou onde possa apoiar as mãos, beirada da cama ou uma cadeira), de joelhos sobre um colchonete, tronco ereto, transverso contraído. Levar uma das pernas à frente até bem próximo do espaldar, mantendo uma flexão do joelho da frente em torno de 90°. Apoiar as mãos numa das barras, manter tronco ereto e fazer uma ligeira pressão no quadril para baixo e para frente até sentir o estiramento das virilhas da perna que está no chão e manter a postura pelo tempo indicado."},
+            {"name": "Posteriores das Coxas", "pic": "posterior-coxa", "desc": "Forma de execução - a uma distância de um passo do espaldar, tronco ereto, preservando as curvaturas da coluna e pelve em neutro. Manter os pés e os quadris apontados para frente. Flexionar um dos quadris (com os joelhos estendidos, MAS SEM BLOQUEAR) e apoiar o calcanhar deste membro sobre uma barra do espaldar, formando um ângulo entre 90° a 120° de flexão de quadril, até o alongamento da parte posterior da coxa. Pode-se utilizar uma corda presa ao espaldar para auxiliar no equilíbrio. Mantenha sempre o BRACING FORTE!"}
+
+        ]
+    }
+
+
+
+
+
+]
