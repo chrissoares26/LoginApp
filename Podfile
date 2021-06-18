@@ -9,4 +9,9 @@ target 'Login' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+
+# Faceboook
+
+pod 'FBSDKLoginKit'
+    
 end
