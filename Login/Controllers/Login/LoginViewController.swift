@@ -71,11 +71,11 @@ class LoginViewController: UIViewController {
         return button
     }()
     
-    private let facebookLoginButton: FBLoginButton = {
-        let button = FBLoginButton()
-        button.permissions = ["email,public_profile"]
-        return button
-    }()
+    //private let facebookLoginButton: FBLoginButton = {
+        //let button = FBLoginButton()
+        //button.permissions = ["email,public_profile"]
+        //return button
+    //}()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,7 +90,7 @@ class LoginViewController: UIViewController {
         
         emailField.delegate = self
         passwordField.delegate = self
-        facebookLoginButton.delegate = self
+        //facebookLoginButton.delegate = self
         
         //Add subviews
         view.addSubview(scrollView)
@@ -98,7 +98,7 @@ class LoginViewController: UIViewController {
         scrollView.addSubview(emailField)
         scrollView.addSubview(passwordField)
         scrollView.addSubview(loginButton)
-        scrollView.addSubview(facebookLoginButton)
+        //scrollView.addSubview(facebookLoginButton)
     
     }
     
@@ -110,9 +110,9 @@ class LoginViewController: UIViewController {
         emailField.frame = CGRect(x: 30, y: imageView.bottom+10, width: scrollView.width-60, height: 52)
         passwordField.frame = CGRect(x: 30, y: emailField.bottom+10, width: scrollView.width-60, height: 52)
         loginButton.frame = CGRect(x: 30, y: passwordField.bottom+10, width: scrollView.width-60, height: 52)
-        facebookLoginButton.frame = CGRect(x: 30, y: loginButton.bottom+10, width: scrollView.width-60, height: 52)
+        // facebookLoginButton.frame = CGRect(x: 30, y: loginButton.bottom+10, width: scrollView.width-60, height: 52)
         
-        facebookLoginButton.frame.origin.y =  loginButton.bottom+20
+        // facebookLoginButton.frame.origin.y =  loginButton.bottom+20
     }
     
     @objc private func loginButtonTapped(){
@@ -174,20 +174,26 @@ extension LoginViewController: LoginButtonDelegate {
         //no operation
     }
     func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
-        guard let token = result?.token?.tokenString else {
-            print("User failed to log in with Facebook")
-            return
-        }
-        
-        let facebookRequest = FBSDKLoginKit.GraphRequest(graphPath: "me", parameters: ["fields":"email, name"], tokenString: token, version: nil, httpMethod: .get)
-        
-        facebookRequest.start(completionHandler: { _, result, error in
-            guard let result = result as? [String: Any], error == nil else {
-                print("Failed to make facebook graph request")
-                return
-            }
-            
-            print("\(result)")
+           guard let token = result?.token?.tokenString else {
+               print("User failed to log in with facebook")
+               return
+           }
+
+           let facebookRequest = FBSDKLoginKit.GraphRequest(graphPath: "me",
+                                                            parameters: ["fields":
+                                                               "email, first_name, last_name, picture.type(large)"],
+                                                            tokenString: token,
+                                                            version: nil,
+                                                            httpMethod: .get)
+
+           facebookRequest.start(completionHandler: { _, result, error in
+               guard let result = result as? [String: Any],
+                   error == nil else {
+                       print("Failed to make facebook graph request")
+                       return
+               }
+
+               print(result)
             guard let userName = result["name"] as? String,
                   let email = result["email"] as? String else {
                 print("Failed to get email and name from fb result")
